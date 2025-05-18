@@ -1,0 +1,31 @@
+# Arquivo .gitignore na raiz do projeto
+
+# Arquivos de ambiente
+.env
+
+# Logs
+*.log
+
+# Dependências do Node.js (frontend)
+node_modules/
+frontend/node_modules/
+
+# Builds do frontend
+dist/
+frontend/dist/
+frontend/dist-ssr/
+
+# Dados do banco de dados (backend)
+backend/postgres-data/
+
+# Arquivos temporários e de sistema
+.DS_Store
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Configurações de IDEs
+.vscode/
+.idea/
